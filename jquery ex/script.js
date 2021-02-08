@@ -1,9 +1,9 @@
-$("#text").ready(function() {
+$("document").ready(function() {
     $("#text").hover(function() {
         $(this).css("color","black");
     });
     $("#text").click( function() {
-        alert("congratulations");
+        alert("tu as trouver la deuxieme fonction");
     });
 
 });
